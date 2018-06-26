@@ -15,7 +15,7 @@ To train your own model, please download your own dataset and change the path in
 In my implementation, I a subset of VOC2012 as training data (about 14000 images) 
 
 
-# Validate
+## Validate
 Run the command in the project folder
 ```bash
 python main.py mode==eval
