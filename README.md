@@ -21,7 +21,11 @@ A CNN with Residual blocks is used to tackle this challenge. It has a similar st
 - CUDA8.0
 
 ## 3. Demo
+**Noisy Image**
+![Noisy](https://github.com/YunzeMan/IRCNN/blob/master/demo/B.png)
 
+**Recovered Image**
+![Recover](https://github.com/YunzeMan/IRCNN/blob/master/final_image/final.png)
 
 ## 4. Train
 To train your own model, please download your own dataset and change the path in `config.py`.
