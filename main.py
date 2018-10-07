@@ -157,7 +157,7 @@ def evaluate():
     checkpoint_dir = "checkpoint"
 
     ###====================== PRE-LOAD DATA ===========================###
-    valid_lr_img_list = ["B.png"]
+    valid_lr_img_list = ["demo/B.png"]
     valid_lr_imgs = tl.vis.read_images(valid_lr_img_list, path='.', n_threads=32)
 
     ###========================== DEFINE MODEL ============================###
